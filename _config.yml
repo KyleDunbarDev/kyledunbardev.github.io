@@ -46,6 +46,7 @@ logo: "/assets/images/bio-photo-2.jpg"
 timezone: Europe/London
 
 author:
+  name: "Kyle Dunbar"
   bio: "BSc Computer Science at Northumbria University" # Note: Markdown is allowed
   location: "Newcastle-upon-Tyne"
   links:
