@@ -24,7 +24,7 @@ email: kyledunbarwork@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal writings on game development, computer science, techno-freedom and misc.
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://kyledunbardev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kyledunbar.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: KyleDunbarDev
 repository: "KyleDunbarDev/blog"
 
