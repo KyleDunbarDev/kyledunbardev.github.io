@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Implementing Auto Tiling With Just 5 Tiles"
+title:  "Implementing Dual Layer Auto Tiling With 5 Tiles"
 date:   2026-02-05 02:50:50 +0000
 ---
 {% include figure popup=true image_path="/assets/images/auto-tiling.gif" alt="gif of auto-tiling" %}
