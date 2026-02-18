@@ -11,7 +11,7 @@ The following implementations are extensions of the [Godot CharacterController2D
 # Jump Input Buffering
 Jump input buffering allows the player to press their jump action slightly before landing and the jump will still execute. This avoids the frustration of a jump the player thought should work not executing or having to perfectly press jump right when you are grounded in scenarios where you want to jump again as soon as you land, which is extremely common for efficiently traversing platforming scenes.
 
-It works by changing the jump input from the jump action to a new jump buffering actions. The jump buffering action sets a boolean to true and back to false after it times out. During the time it is true, if the player touches the floor the jump action is executed.
+It works by changing the jump input from the 'jump' action to a new 'jump buffering' action. The jump buffering action sets a jump boolean to true, and back to false after it times out. During the time it is true, if the player touches the floor the jump action is executed.
 
 Here is my Godot implementation:
 ```gdscript
@@ -111,7 +111,7 @@ Visual effects such as dust particles when running, landing or turning quickly c
 
 Good sound design goes a long way into making a movement system feel good. A soft jump sound and strong landing sound can help to give a sense of impact and subtly reinforce timing to the player. A subtle footstep loop quietly makes the movements feel real and immersive.
 
-A heavy landing could reverb and cause dust to fall in a cave scene or create a large water spray in a pond. How you juice the mechanics is largely dependent on what you are trying to achieve with your game design.
+A heavy landing could reverb and cause dust to fall in a cave scene or create a large water spray in a pond scene. How you juice the mechanics is largely dependent on what you are trying to achieve with your game design.
 
 ---
 That's all! Thank you for reading. Follow me on the platforms in the footer so I look cool online and subscribe via RSS if you want to catch the next one.
