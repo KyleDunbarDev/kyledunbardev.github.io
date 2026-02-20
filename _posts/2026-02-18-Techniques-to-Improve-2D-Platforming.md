@@ -114,4 +114,7 @@ Good sound design goes a long way into making a movement system feel good. A sof
 A heavy landing could reverb and cause dust to fall in a cave scene or create a large water spray in a pond scene. How you juice the mechanics is largely dependent on what you are trying to achieve with your game design.
 
 ---
+
+Check out the [follow-up post](https://www.kyledunbar.dev/2026/02/20/Box-Colliders-Are-Better-Than-Capsules.html) where I discuss collider shapes.
+
 That's all! Thank you for reading. Follow me on the platforms in the footer so I look cool online and subscribe via RSS if you want to catch the next one.
