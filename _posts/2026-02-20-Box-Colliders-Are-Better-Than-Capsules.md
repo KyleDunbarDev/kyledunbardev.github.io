@@ -50,4 +50,4 @@ The additional systems may seem painful to implement when a capsule collider can
 
 This post is a follow-up of the previous post you can check out here: [Techniques to Improve 2D platforming](https://www.kyledunbar.dev/2026/02/18/Techniques-to-Improve-2D-Platforming.html)
 
-Thanks for reading! I will be posting once a week for the near future so come back soon or subscribe via RSS to in the footer.
+Thanks for reading! I will be posting once a week for the near future so come back soon or subscribe via RSS in the footer.
