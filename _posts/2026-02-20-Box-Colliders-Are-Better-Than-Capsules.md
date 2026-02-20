@@ -46,6 +46,8 @@ I recommend a cylinder collider for 3D so that the character can have the aforem
 # Conclusion
 The additional systems may seem painful to implement when a capsule collider can cover the scenarios pretty well but the advantage overall of using flat faced colliders in this way is a much tighter control of movement technology and less random-feeling behaviour. For games where tight movement isn't an important element you can use a capsule collider just fine. But if you are serious about movement, use a box.
 
+---
+
 This post is a follow-up of the previous post you can check out here: [Techniques to Improve 2D platforming](https://www.kyledunbar.dev/2026/02/18/Techniques-to-Improve-2D-Platforming.html)
 
 Thanks for reading! I will be posting once a week for the near future so come back soon or subscribe via RSS to in the footer.
