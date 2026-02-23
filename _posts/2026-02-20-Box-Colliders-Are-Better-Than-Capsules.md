@@ -22,7 +22,7 @@ Capsule colliders have curves on the feet and head. You can stand on the edge of
 
 {% include gallery caption="Unlike the box, the capsule's height differs when standing on a corner." %}
 
-Additionally, the character will smoothly glide up each stair rather than abruptly stepping up which would give the feeling of climbing a staircase. Smoothly stepping may be desirable behaviour but should actually be achieved by modelling the collision for the stairs as a slope, as the capsule will still have some bounce.
+Additionally, with a cylinder the character will semi-smoothly glide up each stair rather than abruptly stepping up which would give the feeling of climbing a staircase. Smoothly stepping may be desirable behaviour but should actually be achieved by modelling the collision for the stairs as a slope, as the capsule will still have some bounce.
 
 # The Solution
 A box or cylinder collider on the other hand has flat faces on the feet and head. This allows movement to be rigid and exact, but needs extra mechanics implemented to not feel frustrating. It removes the problem of variable heights when dealing with edges in exchange for requiring extra coded systems for **step handling**, **ledge snapping** (also called corner correction), and more complex **grounded checks** when dealing with slopes.
